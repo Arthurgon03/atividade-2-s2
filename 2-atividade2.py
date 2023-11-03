@@ -25,13 +25,15 @@ class Curso:
         else:
             return f"Curso: {self.nome}, Professor: Não atribuído"
 
-professor1 = Professor("Professor A")
-professor2 = Professor("Professor B")
-curso1 = Curso("Curso de Matemática")
-curso2 = Curso("Curso de História")
+professor1 = Professor("Carlos")
+professor2 = Professor("Dieimes")
+curso1 = Curso("Design Gráfico")
+curso2 = Curso("Programação")
+curso3 = Curso("Curso de HTML")
 
 professor1.ministrar_curso(curso1)
 professor2.ministrar_curso(curso2)
+professor2.ministrar_curso(curso3)
 
 print(curso1)
 print(curso2)
